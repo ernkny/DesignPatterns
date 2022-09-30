@@ -1,0 +1,12 @@
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\bin\Debug\net5.0\FactoryMethodDP.deps.json
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\bin\Debug\net5.0\FactoryMethodDP.dll
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\bin\Debug\net5.0\FactoryMethodDP.pdb
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\obj\Debug\net5.0\FactoryMethodDP.csproj.AssemblyReference.cache
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\obj\Debug\net5.0\FactoryMethodDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\obj\Debug\net5.0\FactoryMethodDP.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\obj\Debug\net5.0\FactoryMethodDP.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\obj\Debug\net5.0\FactoryMethodDP.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\obj\Debug\net5.0\FactoryMethodDP.dll
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\obj\Debug\net5.0\refint\FactoryMethodDP.dll
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\obj\Debug\net5.0\FactoryMethodDP.pdb
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FactoryMethodDP\obj\Debug\net5.0\ref\FactoryMethodDP.dll

@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DesingPatternsWork/1.0.0": {
+        "dependencies": {
+          "AbstractFactory": "1.0.0",
+          "FacadeDP": "1.0.0",
+          "FactoryMethodDP": "1.0.0",
+          "StrategyDP": "1.0.0"
+        },
+        "runtime": {
+          "DesingPatternsWork.dll": {}
+        }
+      },
+      "AbstractFactory/1.0.0": {
+        "runtime": {
+          "AbstractFactory.dll": {}
+        }
+      },
+      "FacadeDP/1.0.0": {
+        "runtime": {
+          "FacadeDP.dll": {}
+        }
+      },
+      "FactoryMethodDP/1.0.0": {
+        "runtime": {
+          "FactoryMethodDP.dll": {}
+        }
+      },
+      "StrategyDP/1.0.0": {
+        "runtime": {
+          "StrategyDP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DesingPatternsWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AbstractFactory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FacadeDP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FactoryMethodDP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StrategyDP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

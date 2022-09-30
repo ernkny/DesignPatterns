@@ -1,0 +1,12 @@
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\bin\Debug\net5.0\FacadeDP.deps.json
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\bin\Debug\net5.0\FacadeDP.dll
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\bin\Debug\net5.0\FacadeDP.pdb
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\obj\Debug\net5.0\FacadeDP.csproj.AssemblyReference.cache
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\obj\Debug\net5.0\FacadeDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\obj\Debug\net5.0\FacadeDP.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\obj\Debug\net5.0\FacadeDP.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\obj\Debug\net5.0\FacadeDP.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\obj\Debug\net5.0\FacadeDP.dll
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\obj\Debug\net5.0\refint\FacadeDP.dll
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\obj\Debug\net5.0\FacadeDP.pdb
+C:\Users\MONSTER\source\repos\DesingPatternsWork\FacadeDP\obj\Debug\net5.0\ref\FacadeDP.dll

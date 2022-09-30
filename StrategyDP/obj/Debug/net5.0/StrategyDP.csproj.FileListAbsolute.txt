@@ -1,0 +1,12 @@
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\obj\Debug\net5.0\StrategyDP.csproj.AssemblyReference.cache
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\obj\Debug\net5.0\StrategyDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\obj\Debug\net5.0\StrategyDP.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\obj\Debug\net5.0\StrategyDP.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\obj\Debug\net5.0\StrategyDP.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\bin\Debug\net5.0\StrategyDP.deps.json
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\bin\Debug\net5.0\StrategyDP.dll
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\bin\Debug\net5.0\StrategyDP.pdb
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\obj\Debug\net5.0\StrategyDP.dll
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\obj\Debug\net5.0\refint\StrategyDP.dll
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\obj\Debug\net5.0\StrategyDP.pdb
+C:\Users\MONSTER\source\repos\DesingPatternsWork\StrategyDP\obj\Debug\net5.0\ref\StrategyDP.dll
