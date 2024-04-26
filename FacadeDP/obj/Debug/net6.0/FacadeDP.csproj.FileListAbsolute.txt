@@ -1,0 +1,11 @@
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\bin\Debug\net6.0\FacadeDP.deps.json
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\bin\Debug\net6.0\FacadeDP.dll
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\bin\Debug\net6.0\FacadeDP.pdb
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\obj\Debug\net6.0\FacadeDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\obj\Debug\net6.0\FacadeDP.AssemblyInfoInputs.cache
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\obj\Debug\net6.0\FacadeDP.AssemblyInfo.cs
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\obj\Debug\net6.0\FacadeDP.csproj.CoreCompileInputs.cache
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\obj\Debug\net6.0\FacadeDP.dll
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\obj\Debug\net6.0\refint\FacadeDP.dll
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\obj\Debug\net6.0\FacadeDP.pdb
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FacadeDP\obj\Debug\net6.0\ref\FacadeDP.dll

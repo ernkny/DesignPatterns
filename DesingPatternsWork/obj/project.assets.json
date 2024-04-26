@@ -1,10 +1,10 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "AbstractFactory/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/AbstractFactory.dll": {}
         },
@@ -14,7 +14,7 @@
       },
       "FacadeDP/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/FacadeDP.dll": {}
         },
@@ -24,7 +24,7 @@
       },
       "FactoryMethodDP/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/FactoryMethodDP.dll": {}
         },
@@ -34,7 +34,7 @@
       },
       "StrategyDP/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/StrategyDP.dll": {}
         },
@@ -67,7 +67,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "AbstractFactory >= 1.0.0",
       "FacadeDP >= 1.0.0",
       "FactoryMethodDP >= 1.0.0",
@@ -75,48 +75,50 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MONSTER\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\fatiheren.kinay\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\DesingPatternsWork\\DesingPatternsWork.csproj",
+      "projectUniqueName": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\DesingPatternsWork\\DesingPatternsWork.csproj",
       "projectName": "DesingPatternsWork",
-      "projectPath": "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\DesingPatternsWork\\DesingPatternsWork.csproj",
-      "packagesPath": "C:\\Users\\MONSTER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\DesingPatternsWork\\obj\\",
+      "projectPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\DesingPatternsWork\\DesingPatternsWork.csproj",
+      "packagesPath": "C:\\Users\\fatiheren.kinay\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\DesingPatternsWork\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MONSTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fatiheren.kinay\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://azuredevops.fineksus.local/PayGate/_packaging/fineksus-feed/nuget/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\AbstractFactory\\AbstractFactory.csproj": {
-              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\AbstractFactory\\AbstractFactory.csproj"
+            "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\AbstractFactory\\AbstractFactory.csproj": {
+              "projectPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\AbstractFactory\\AbstractFactory.csproj"
             },
-            "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\FacadeDP\\FacadeDP.csproj": {
-              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\FacadeDP\\FacadeDP.csproj"
+            "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FacadeDP\\FacadeDP.csproj": {
+              "projectPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FacadeDP\\FacadeDP.csproj"
             },
-            "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\FactoryMethodDP\\FactoryMethodDP.csproj": {
-              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\FactoryMethodDP\\FactoryMethodDP.csproj"
+            "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj": {
+              "projectPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj"
             },
-            "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\StrategyDP\\StrategyDP.csproj": {
-              "projectPath": "C:\\Users\\MONSTER\\source\\repos\\DesingPatternsWork\\StrategyDP\\StrategyDP.csproj"
+            "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj": {
+              "projectPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj"
             }
           }
         }
@@ -128,15 +130,16 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -145,7 +148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,11 @@
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\bin\Debug\net6.0\FactoryMethodDP.deps.json
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\bin\Debug\net6.0\FactoryMethodDP.dll
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\bin\Debug\net6.0\FactoryMethodDP.pdb
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\obj\Debug\net6.0\FactoryMethodDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\obj\Debug\net6.0\FactoryMethodDP.AssemblyInfoInputs.cache
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\obj\Debug\net6.0\FactoryMethodDP.AssemblyInfo.cs
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\obj\Debug\net6.0\FactoryMethodDP.csproj.CoreCompileInputs.cache
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\obj\Debug\net6.0\FactoryMethodDP.dll
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\obj\Debug\net6.0\refint\FactoryMethodDP.dll
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\obj\Debug\net6.0\FactoryMethodDP.pdb
+C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\FactoryMethodDP\obj\Debug\net6.0\ref\FactoryMethodDP.dll

@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Abstract
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadeDP", "FacadeDP\FacadeDP.csproj", "{C1A8BCF7-5C15-42CE-95D8-DF536DF0B899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyDP", "StrategyDP\StrategyDP.csproj", "{72D6AD00-D9D7-49DB-9A1A-B5A9D0A221C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyDP", "StrategyDP\StrategyDP.csproj", "{72D6AD00-D9D7-49DB-9A1A-B5A9D0A221C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodDP", "FactoryMethodDP\FactoryMethodDP.csproj", "{38439140-30AC-42C3-8DDF-A16E6CB5BBF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodDP", "FactoryMethodDP\FactoryMethodDP.csproj", "{38439140-30AC-42C3-8DDF-A16E6CB5BBF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain of Responsibility", "Chain of Responsibility\Chain of Responsibility.csproj", "{F292F6F4-4726-4DD6-90AD-661D66FC6F46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{38439140-30AC-42C3-8DDF-A16E6CB5BBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38439140-30AC-42C3-8DDF-A16E6CB5BBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38439140-30AC-42C3-8DDF-A16E6CB5BBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F292F6F4-4726-4DD6-90AD-661D66FC6F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F292F6F4-4726-4DD6-90AD-661D66FC6F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F292F6F4-4726-4DD6-90AD-661D66FC6F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F292F6F4-4726-4DD6-90AD-661D66FC6F46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
