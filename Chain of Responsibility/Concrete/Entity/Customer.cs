@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Chain_of_Responsibility.Concrete.Entity
 {
+    /// <summary>
+    /// Customer Information
+    /// </summary>
     public class Customer
     {
         /// <summary>

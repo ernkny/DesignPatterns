@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Chain_of_Responsibility.Concrete.Entity
 {
-    public class OrderStock
+
+    /// <summary>
+    /// Product Stock
+    /// </summary>
+    public class ProductStock
     {
         /// <summary>
         /// Product identifier for the item.

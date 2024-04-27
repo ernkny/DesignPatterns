@@ -28,7 +28,15 @@ namespace DesingPatternsWork
             await stockControl.Handle(orderItem);
             await addressControl.Handle(orderItem);
             var orderResult = await paymentControl.Handle(orderItem);
-            Console.WriteLine(orderResult);
+            if (orderResult)
+            {
+                Console.WriteLine("Order is okey");
+            }
+            else
+            {
+                Console.WriteLine("Order is not okey");
+            }
+
 
 
 
