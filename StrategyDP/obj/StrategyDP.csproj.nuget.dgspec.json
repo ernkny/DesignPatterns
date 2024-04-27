@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj": {}
+    "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj": {
+    "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj",
+        "projectUniqueName": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj",
         "projectName": "StrategyDP",
-        "projectPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj",
+        "projectPath": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj",
         "packagesPath": "C:\\Users\\fatiheren.kinay\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\StrategyDP\\obj\\",
         "projectStyle": "PackageReference",

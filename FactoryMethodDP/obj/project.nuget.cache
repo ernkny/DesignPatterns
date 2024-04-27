@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PkgP6we93+QckO72xlC3rRUaFViAuwTqi60cIEol7lgreeODiHC4k4Op1/W2JCGZ8rB2Qy3/N/yHJdjfY5ElzQ==",
+  "dgSpecHash": "wZefsdb8QLHSXBVmCiBfI69ih2zFuLcJ2a9dElQrCWX9DsBLkC7wG5EzF57W2oJ/au5aNZQUh/nif8tY3UF2Tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj",
+  "projectFilePath": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

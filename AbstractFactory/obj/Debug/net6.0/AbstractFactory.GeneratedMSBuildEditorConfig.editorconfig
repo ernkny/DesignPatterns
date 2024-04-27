@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AbstractFactory
-build_property.ProjectDir = C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\AbstractFactory\
+build_property.ProjectDir = C:\Users\fatiheren.kinay\source\repos\DesignPatterns\AbstractFactory\

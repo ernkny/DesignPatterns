@@ -22,3 +22,5 @@ C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\DesingPatternsWork\obj\Debu
 C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\DesingPatternsWork\obj\Debug\net6.0\DesingPatternsWork.pdb
 C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\DesingPatternsWork\obj\Debug\net6.0\DesingPatternsWork.genruntimeconfig.cache
 C:\Users\fatiheren.kinay\Source\Repos\DesignPatterns\DesingPatternsWork\obj\Debug\net6.0\ref\DesingPatternsWork.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesingPatternsWork\bin\Debug\net6.0\ChainOfResponsibility.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesingPatternsWork\bin\Debug\net6.0\ChainOfResponsibility.pdb

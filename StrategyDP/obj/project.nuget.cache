@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2iDX9PK6dsHZhuXviGmVc1ken7zpD2iYVEiq2xSZQnFX1+FI6HANOibDn4+/0ys1tswB4I9xweRmv+M3O2pcsg==",
+  "dgSpecHash": "YzKK25uOXWxU2r6VyPZfnumCx/2/8tWj/FuzbppWTqOFnUA05YMO4ddrX7FjGTqb+JkTR9CMmy7aamCJVy/MvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj",
+  "projectFilePath": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\StrategyDP\\StrategyDP.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

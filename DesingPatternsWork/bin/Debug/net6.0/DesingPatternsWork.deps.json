@@ -9,6 +9,7 @@
       "DesingPatternsWork/1.0.0": {
         "dependencies": {
           "AbstractFactory": "1.0.0",
+          "ChainOfResponsibility": "1.0.0",
           "FacadeDP": "1.0.0",
           "FactoryMethodDP": "1.0.0",
           "StrategyDP": "1.0.0"
@@ -20,6 +21,11 @@
       "AbstractFactory/1.0.0": {
         "runtime": {
           "AbstractFactory.dll": {}
+        }
+      },
+      "ChainOfResponsibility/1.0.0": {
+        "runtime": {
+          "ChainOfResponsibility.dll": {}
         }
       },
       "FacadeDP/1.0.0": {
@@ -46,6 +52,11 @@
       "sha512": ""
     },
     "AbstractFactory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChainOfResponsibility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

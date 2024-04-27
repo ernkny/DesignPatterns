@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\Chain of Responsibility\\Chain of Responsibility.csproj",
-      "projectName": "Chain of Responsibility",
-      "projectPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\Chain of Responsibility\\Chain of Responsibility.csproj",
+      "projectUniqueName": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\Chain of Responsibility\\ChainOfResponsibility.csproj",
+      "projectName": "ChainOfResponsibility",
+      "projectPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\Chain of Responsibility\\ChainOfResponsibility.csproj",
       "packagesPath": "C:\\Users\\fatiheren.kinay\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\Chain of Responsibility\\obj\\",
       "projectStyle": "PackageReference",

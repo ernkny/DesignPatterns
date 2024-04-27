@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyDP", "StrategyDP\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodDP", "FactoryMethodDP\FactoryMethodDP.csproj", "{38439140-30AC-42C3-8DDF-A16E6CB5BBF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain of Responsibility", "Chain of Responsibility\Chain of Responsibility.csproj", "{F292F6F4-4726-4DD6-90AD-661D66FC6F46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Chain of Responsibility\ChainOfResponsibility.csproj", "{F292F6F4-4726-4DD6-90AD-661D66FC6F46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

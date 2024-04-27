@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FacadeDP\\FacadeDP.csproj": {}
+    "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\FacadeDP\\FacadeDP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FacadeDP\\FacadeDP.csproj": {
+    "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\FacadeDP\\FacadeDP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FacadeDP\\FacadeDP.csproj",
+        "projectUniqueName": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\FacadeDP\\FacadeDP.csproj",
         "projectName": "FacadeDP",
-        "projectPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FacadeDP\\FacadeDP.csproj",
+        "projectPath": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\FacadeDP\\FacadeDP.csproj",
         "packagesPath": "C:\\Users\\fatiheren.kinay\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FacadeDP\\obj\\",
         "projectStyle": "PackageReference",

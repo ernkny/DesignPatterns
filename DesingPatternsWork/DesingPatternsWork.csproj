@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj" />
+    <ProjectReference Include="..\Chain of Responsibility\ChainOfResponsibility.csproj" />
     <ProjectReference Include="..\FacadeDP\FacadeDP.csproj" />
     <ProjectReference Include="..\FactoryMethodDP\FactoryMethodDP.csproj" />
     <ProjectReference Include="..\StrategyDP\StrategyDP.csproj" />

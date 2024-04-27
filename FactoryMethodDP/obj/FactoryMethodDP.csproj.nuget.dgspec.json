@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj": {}
+    "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj": {
+    "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj",
+        "projectUniqueName": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj",
         "projectName": "FactoryMethodDP",
-        "projectPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj",
+        "projectPath": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\FactoryMethodDP\\FactoryMethodDP.csproj",
         "packagesPath": "C:\\Users\\fatiheren.kinay\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\fatiheren.kinay\\Source\\Repos\\DesignPatterns\\FactoryMethodDP\\obj\\",
         "projectStyle": "PackageReference",

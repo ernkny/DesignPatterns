@@ -1,31 +1,53 @@
 ﻿using AbstractFactory.Abstract;
 using AbstractFactory.Concrete;
+using Chain_of_Responsibility.Concrete.ChainOfResponsibilityPattern;
+using Chain_of_Responsibility.Concrete.Entity;
 using FacadeDP.Concrete;
 using FactoryMethodDP.Concrete;
 using StrategyDP.Abstract;
 using StrategyDP.Concrete;
 using System;
+using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace DesingPatternsWork
 {
-    internal class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        async static Task Main(string[] args)
         {
-            #region AbstractFactory Design Pattern Çalışma
-            IFurnitureFactory ModernChair = new ModernChairFactory();
-            IFurnitureFactory ArtDecoTable = new ArtDecoTableFactory();
-            AbstractFactoryForFurnite abstractFactoryForModernChair = new AbstractFactoryForFurnite(ModernChair);
-            AbstractFactoryForFurnite abstractFactoryForArtDecoTable = new AbstractFactoryForFurnite(ArtDecoTable);
-            Console.WriteLine(abstractFactoryForModernChair.GetTypeOfFurniture() + " " + abstractFactoryForModernChair.GetNameOfFurniture());
-            Console.WriteLine("-----------------------------");
-            Console.WriteLine(abstractFactoryForArtDecoTable.GetTypeOfFurniture() + " " + abstractFactoryForArtDecoTable.GetNameOfFurniture());
+            var order = new Order();
+            order.Items.Add(new OrderItem() { ProductId = 1, Quantity = 1, UnitPrice = 100 });
+            var orderItem = order.Items.First();
+            var stockControl = new StockControl();
+            var addressControl = new  AddressControl(1);
+            var paymentControl= new PaymentControl();
+            await stockControl.SetNext(addressControl);
+            await addressControl.SetNext(paymentControl);
+            await stockControl.Handle(orderItem);
+            await addressControl.Handle(orderItem);
+            var orderResult = await paymentControl.Handle(orderItem);
+            Console.WriteLine(orderResult);
 
-            Console.ReadKey();
+
+
+            #region Chain of Responsibility Pattern Works
+
+            #endregion
+            #region AbstractFactory Design Pattern Works
+            //IFurnitureFactory ModernChair = new ModernChairFactory();
+            //IFurnitureFactory ArtDecoTable = new ArtDecoTableFactory();
+            //AbstractFactoryForFurnite abstractFactoryForModernChair = new AbstractFactoryForFurnite(ModernChair);
+            //AbstractFactoryForFurnite abstractFactoryForArtDecoTable = new AbstractFactoryForFurnite(ArtDecoTable);
+            //Console.WriteLine(abstractFactoryForModernChair.GetTypeOfFurniture() + " " + abstractFactoryForModernChair.GetNameOfFurniture());
+            //Console.WriteLine("-----------------------------");
+            //Console.WriteLine(abstractFactoryForArtDecoTable.GetTypeOfFurniture() + " " + abstractFactoryForArtDecoTable.GetNameOfFurniture());
+
+            //Console.ReadKey();
             #endregion
 
-            #region Facade Design Pattern Çalışma
+            #region Facade Design Pattern Works
             //TumControl tmc = new TumControl();
             //Customer c = new Customer("Eren Kınay");
             //bool sonuc = tmc.IsEligible(c,12000);
@@ -35,7 +57,7 @@ namespace DesingPatternsWork
             //Console.ReadKey();
             #endregion
 
-            #region Strategy Design Pattern Çalışma
+            #region Strategy Design Pattern Works
             //SortedList Kisiler = new SortedList();
             //Kisiler.Add("Eren");
             //Kisiler.Add("Fatih");
@@ -52,7 +74,7 @@ namespace DesingPatternsWork
             //Console.ReadKey();
             #endregion
 
-            #region Factory Method Design Pattern Çalışma
+            #region Factory Method Design Pattern Works
             //string message = "Important Message Included";
             //while (true)
             //{
