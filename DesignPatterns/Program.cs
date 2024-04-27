@@ -1,4 +1,11 @@
-﻿
+﻿using AbstractFactory.Abstract;
+using AbstractFactory.Concrete;
+using Chain_of_Responsibility.Concrete.ChainOfResponsibilityPattern;
+using Chain_of_Responsibility.Concrete.Entity;
+using FacadeDP.Concrete;
+using FactoryMethodDP.Concrete;
+using StrategyDP.Concrete;
+
 
 #region Chain of Responsibility Pattern Works
 //var order = new Order();
