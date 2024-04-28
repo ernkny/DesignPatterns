@@ -8,25 +8,23 @@ using StrategyDP.Concrete;
 
 
 #region Chain of Responsibility Pattern Works
-//var order = new Order();
-//order.Items.Add(new OrderItem() { ProductId = 1, Quantity = 1, UnitPrice = 100 });
-//var orderItem = order.Items.First();
-//var stockControl = new StockControl();
-//var addressControl = new AddressControl(1);
-//var paymentControl = new PaymentControl();
-//await stockControl.SetNext(addressControl);
-//await addressControl.SetNext(paymentControl);
-//await stockControl.Handle(orderItem);
-//await addressControl.Handle(orderItem);
-//var orderResult = await paymentControl.Handle(orderItem);
-//if (orderResult)
-//{
-//    Console.WriteLine("Order is okey");
-//}
-//else
-//{
-//    Console.WriteLine("Order is not okey");
-//}
+
+    var order = new Order();
+    order.Items.Add(new OrderItem() { ProductId = 1, Quantity = 1, UnitPrice = 100 });
+    var orderItem = order.Items.First();
+
+    var stockControl = new StockControl();
+    var addressControl = new AddressControl(1);
+    var paymentControl = new PaymentControl();
+
+    await stockControl.SetNext(addressControl);
+    await addressControl.SetNext(paymentControl);
+
+    await stockControl.Handle(orderItem);
+    await addressControl.Handle(orderItem);
+    var orderResult = await paymentControl.Handle(orderItem);
+    Console.WriteLine(orderResult ? "Order is okay" : "Order is not okay");
+
 #endregion
 
 #region AbstractFactory Design Pattern Works

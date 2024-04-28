@@ -11,7 +11,7 @@ namespace AbstractFactory.Concrete
     {
         public string TypeNameOfFurniture()
         {
-            return "Sanatsal Dekorasyon";
+            return "Artistic Decoration";
         }
     }
 }

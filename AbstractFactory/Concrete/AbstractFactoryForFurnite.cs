@@ -18,12 +18,12 @@ namespace AbstractFactory.Concrete
         }
         public string GetNameOfFurniture()
         {
-            return _familyOfFurniture.FamilyNameOfFurniture().ToString();
+            return _familyOfFurniture.FamilyNameOfFurniture();
         }
         public string GetTypeOfFurniture()
         {
            return _typeOfFurniture.TypeNameOfFurniture();
         }
-       
+
     }
 }

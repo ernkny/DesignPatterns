@@ -15,8 +15,6 @@ namespace Chain_of_Responsibility.Concrete.ChainOfResponsibilityPattern
         /// <summary>
         /// Sets the next handler in the chain of responsibility.
         /// </summary>
-        /// <param name="abstractHandlerChain">The next handler to be set.</param>
-        /// <returns>A task that represents the asynchronous operation.</returns>
         public override async Task SetNext(AbstractHandlerChain abstractHandlerChain)
         {
             _abstractHandlerChain = abstractHandlerChain;
@@ -27,8 +25,6 @@ namespace Chain_of_Responsibility.Concrete.ChainOfResponsibilityPattern
         /// Processes an order item by checking stock availability and, if sufficient stock exists,
         /// passing the order item to the next handler in the chain.
         /// </summary>
-        /// <param name="orderItem">The order item to handle.</param>
-        /// <returns>A task result containing a boolean value that indicates whether the order item was successfully handled.</returns>
         public override async Task<bool> Handle(OrderItem orderItem)
         {
             var result = InMemoryDataForOrder.GetAllProductTotalQuantity();

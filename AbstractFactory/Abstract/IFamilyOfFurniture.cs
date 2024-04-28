@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.Abstract
 {
-    public  interface IFamilyOfFurniture
+    public interface IFamilyOfFurniture
     {
         string FamilyNameOfFurniture();
 

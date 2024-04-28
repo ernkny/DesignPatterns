@@ -11,7 +11,7 @@ namespace AbstractFactory.Concrete
     {
         public string FamilyNameOfFurniture()
         {
-            return "Masa";
+            return "Table";
         }
     }
 }

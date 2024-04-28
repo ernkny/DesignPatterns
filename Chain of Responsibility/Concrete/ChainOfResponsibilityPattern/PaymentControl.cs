@@ -20,8 +20,6 @@ namespace Chain_of_Responsibility.Concrete.ChainOfResponsibilityPattern
         /// <summary>
         /// Sets the next handler in the chain of responsibility.
         /// </summary>
-        /// <param name="abstractHandlerChain">The next handler to be set.</param>
-        /// <returns>A task that represents the asynchronous operation.</returns>
         public override async Task SetNext(AbstractHandlerChain abstractHandlerChain)
         {
             _abstractHandlerChain = abstractHandlerChain;
@@ -32,8 +30,6 @@ namespace Chain_of_Responsibility.Concrete.ChainOfResponsibilityPattern
         /// Processes an order item by checking the payment status through an API call.
         /// If the payment is verified, it may pass the order item to the next handler in the chain if one exists.
         /// </summary>
-        /// <param name="orderItem">The order item to handle.</param>
-        /// <returns>A task result containing a boolean value that indicates whether the payment for the order item was successfully verified.</returns>
         public override async Task<bool> Handle(OrderItem orderItem)
         {
             // Verify payment through an external API
