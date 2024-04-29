@@ -1,4 +1,5 @@
 ﻿using AbstractFactory.Abstract;
+using AbstractFactory.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.Concrete
 {
-    public class Table : IFamilyOfFurniture
+    public class IncomeStatementFactory : IReportFactory<IncomeTable>
     {
-        public string FamilyNameOfFurniture()
+        public IFinancialReport<IncomeTable> CreateReport()
         {
-            return "Table";
+            return new IncomeStatement();
         }
     }
 }

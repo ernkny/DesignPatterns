@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.Abstract
 {
-    public interface IFurnitureFactory
+    public interface IReportFactory<T>
     {
-        ITypeOfFurniture typeOfFurniture();
-        IFamilyOfFurniture familyOfFurniture();
+        IFinancialReport<T> CreateReport();
     }
 }

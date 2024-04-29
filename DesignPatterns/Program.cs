@@ -1,5 +1,6 @@
 ﻿using AbstractFactory.Abstract;
 using AbstractFactory.Concrete;
+using AbstractFactory.Entity;
 using Chain_of_Responsibility.Concrete.ChainOfResponsibilityPattern;
 using Chain_of_Responsibility.Concrete.Entity;
 using FacadeDP.Concrete;
@@ -9,34 +10,50 @@ using StrategyDP.Concrete;
 
 #region Chain of Responsibility Pattern Works
 
-    var order = new Order();
-    order.Items.Add(new OrderItem() { ProductId = 1, Quantity = 1, UnitPrice = 100 });
-    var orderItem = order.Items.First();
+    //var order = new Order();
+    //order.Items.Add(new OrderItem() { ProductId = 1, Quantity = 1, UnitPrice = 100 });
+    //var orderItem = order.Items.First();
 
-    var stockControl = new StockControl();
-    var addressControl = new AddressControl(1);
-    var paymentControl = new PaymentControl();
+    //var stockControl = new StockControl();
+    //var addressControl = new AddressControl(1);
+    //var paymentControl = new PaymentControl();
 
-    await stockControl.SetNext(addressControl);
-    await addressControl.SetNext(paymentControl);
+    //await stockControl.SetNext(addressControl);
+    //await addressControl.SetNext(paymentControl);
 
-    await stockControl.Handle(orderItem);
-    await addressControl.Handle(orderItem);
-    var orderResult = await paymentControl.Handle(orderItem);
-    Console.WriteLine(orderResult ? "Order is okay" : "Order is not okay");
+    //await stockControl.Handle(orderItem);
+    //await addressControl.Handle(orderItem);
+    //var orderResult = await paymentControl.Handle(orderItem);
+    //Console.WriteLine(orderResult ? "Order is okay" : "Order is not okay");
 
 #endregion
 
 #region AbstractFactory Design Pattern Works
-//IFurnitureFactory ModernChair = new ModernChairFactory();
-//IFurnitureFactory ArtDecoTable = new ArtDecoTableFactory();
-//AbstractFactoryForFurnite abstractFactoryForModernChair = new AbstractFactoryForFurnite(ModernChair);
-//AbstractFactoryForFurnite abstractFactoryForArtDecoTable = new AbstractFactoryForFurnite(ArtDecoTable);
-//Console.WriteLine(abstractFactoryForModernChair.GetTypeOfFurniture() + " " + abstractFactoryForModernChair.GetNameOfFurniture());
-//Console.WriteLine("-----------------------------");
-//Console.WriteLine(abstractFactoryForArtDecoTable.GetTypeOfFurniture() + " " + abstractFactoryForArtDecoTable.GetNameOfFurniture());
+var incomeTable = new IncomeTable
+{
+    NetSales = 150000,
+    CostOfGoodsSold = 50000,
+    GrossProfit = 100000
+};
 
-//Console.ReadKey();
+var cashFlow = new CashFlowTable
+{
+    OperatingActivities = 50000m,
+    InvestingActivities = -20000m,
+    FinancingActivities = 30000m,
+    CashAtBeginningOfPeriod = 10000m
+};
+
+IReportFactory<IncomeTable> factoryForIncome = new IncomeStatementFactory();
+IFinancialReport<IncomeTable> reportForIncome = factoryForIncome.CreateReport();
+await reportForIncome.GenerateReport(incomeTable);
+await reportForIncome.DisplayReport();
+
+IReportFactory<CashFlowTable> factoryForCashFlow = new CashFlowStatementFactory();
+IFinancialReport<CashFlowTable> reportForCashFlow = factoryForCashFlow.CreateReport();
+await reportForCashFlow.GenerateReport(cashFlow);
+await reportForCashFlow.DisplayReport();
+
 #endregion
 
 #region Facade Design Pattern Works
