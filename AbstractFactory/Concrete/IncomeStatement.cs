@@ -33,19 +33,7 @@ namespace AbstractFactory.Concrete
                 {
                     using (var workbook = new XLWorkbook())
                     {
-                        var worksheet = workbook.Worksheets.Add("Income Statement");
-                        worksheet.Cell("A1").Value = "Description";
-                        worksheet.Cell("B1").Value = "Amount";
-
-                        worksheet.Cell("A2").Value = "Net Sales";
-                        worksheet.Cell("B2").Value = table.NetSales;
-
-                        worksheet.Cell("A3").Value = "Cost of Goods Sold";
-                        worksheet.Cell("B3").Value = table.CostOfGoodsSold;
-
-                        worksheet.Cell("A4").Value = "Gross Profit";
-                        worksheet.Cell("B4").Value = table.GrossProfit;
-
+                        /// Simulation for creation income statement excel report
                         workbook.SaveAs("IncomeStatement.xlsx");
                     }
                 });
