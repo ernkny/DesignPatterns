@@ -1,13 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 namespace FactoryMethodDP.Abstract
 {
+    /// <summary>
+    /// Defines a common interface for all logger types.
+    /// </summary>
     public interface ILogger
     {
-        void log(string message);
+        /// <summary>
+        /// Logs a message asynchronously.
+        /// </summary>
+        /// <param name="message">Message to be logged.</param>
+        Task log(string message);
     }
 }
