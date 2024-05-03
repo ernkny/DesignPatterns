@@ -24,3 +24,10 @@ C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\obj\Debug\ne
 C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.pdb
 C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.genruntimeconfig.cache
 C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\obj\Debug\net6.0\ref\DesignPatterns.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\Irony.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\SixLabors.Fonts.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\XLParser.dll
