@@ -60,13 +60,13 @@ using StrategyDP.Concrete;
 
 #region Adapter Pattern Works
 
-IPaymentGateway paymentGateway;
+//IPaymentGateway paymentGateway;
 
-paymentGateway = new PayPalAdapter(new PayPalPayment());
-Console.WriteLine(await paymentGateway.ProcessPayment(100));
+//paymentGateway = new PayPalAdapter(new PayPalPayment());
+//Console.WriteLine(await paymentGateway.ProcessPayment(100));
 
-paymentGateway = new StripeAdapter(new StripePayment());
-Console.WriteLine(await paymentGateway.ProcessPayment(150));
+//paymentGateway = new StripeAdapter(new StripePayment());
+//Console.WriteLine(await paymentGateway.ProcessPayment(150));
 #endregion
 
 #region Facade Design Pattern Works
@@ -97,12 +97,14 @@ Console.WriteLine(await paymentGateway.ProcessPayment(150));
 #endregion
 
 #region Factory Method Design Pattern Works
-//string message = "Important Message Included";
-//while (true)
-//{
-//    LoggerFactory loggerfactory = new LoggerFactory();
-//    var logger = loggerfactory.CreateLogger(LoggerType.Database);
-//    logger.log(message);
-//    Thread.Sleep(2000);
-//}
+
+var message = "Important Message Included";
+while (true)
+{
+    var loggerfactory = new LoggerFactory();
+    var logger = loggerfactory.CreateLogger(LoggerType.Database);
+    await logger.log(message);
+    Thread.Sleep(2000);
+}
+
 #endregion

@@ -19,5 +19,4 @@ namespace FactoryMethodDP.Concrete
             Console.WriteLine(message + " File Log Works " + DateTime.Now.ToString());  // Placeholder for actual file logging
         }
     }
-
 }
