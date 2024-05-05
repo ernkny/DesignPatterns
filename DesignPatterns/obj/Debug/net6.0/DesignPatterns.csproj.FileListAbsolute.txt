@@ -31,3 +31,5 @@ C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\ne
 C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\SixLabors.Fonts.dll
 C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\System.IO.Packaging.dll
 C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\XLParser.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\AdapterDP.dll
+C:\Users\fatiheren.kinay\source\repos\DesignPatterns\DesignPatterns\bin\Debug\net6.0\AdapterDP.pdb

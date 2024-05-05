@@ -1405,6 +1405,16 @@
           "bin/placeholder/AbstractFactory.dll": {}
         }
       },
+      "AdapterDP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AdapterDP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdapterDP.dll": {}
+        }
+      },
       "ChainOfResponsibility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -4807,6 +4817,11 @@
       "path": "../AbstractFactory/AbstractFactory.csproj",
       "msbuildProject": "../AbstractFactory/AbstractFactory.csproj"
     },
+    "AdapterDP/1.0.0": {
+      "type": "project",
+      "path": "../AdapterDP/AdapterDP.csproj",
+      "msbuildProject": "../AdapterDP/AdapterDP.csproj"
+    },
     "ChainOfResponsibility/1.0.0": {
       "type": "project",
       "path": "../Chain of Responsibility/ChainOfResponsibility.csproj",
@@ -4831,6 +4846,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AbstractFactory >= 1.0.0",
+      "AdapterDP >= 1.0.0",
       "ChainOfResponsibility >= 1.0.0",
       "FacadeDP >= 1.0.0",
       "FactoryMethodDP >= 1.0.0",
@@ -4873,6 +4889,9 @@
           "projectReferences": {
             "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\AbstractFactory\\AbstractFactory.csproj": {
               "projectPath": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\AbstractFactory\\AbstractFactory.csproj"
+            },
+            "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\AdapterDP\\AdapterDP.csproj": {
+              "projectPath": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\AdapterDP\\AdapterDP.csproj"
             },
             "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\Chain of Responsibility\\ChainOfResponsibility.csproj": {
               "projectPath": "C:\\Users\\fatiheren.kinay\\source\\repos\\DesignPatterns\\Chain of Responsibility\\ChainOfResponsibility.csproj"

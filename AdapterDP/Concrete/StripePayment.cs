@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace AdapterDP.Concrete
 {
-
     /// <summary>
     /// Represents a class for handling payments through Stripe.
     /// This class encapsulates the functionality necessary to submit payments using Stripe's payment processing services.
